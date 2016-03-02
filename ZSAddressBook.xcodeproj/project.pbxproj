@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27BAB1C1C846E9E00AC56BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27BAB1B1C846E9E00AC56BC /* AppDelegate.swift */; };
+		C27BAB1E1C846E9E00AC56BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27BAB1D1C846E9E00AC56BC /* ViewController.swift */; };
+		C27BAB211C846E9E00AC56BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27BAB1F1C846E9E00AC56BC /* Main.storyboard */; };
+		C27BAB231C846E9E00AC56BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27BAB221C846E9E00AC56BC /* Assets.xcassets */; };
+		C27BAB261C846E9E00AC56BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27BAB241C846E9E00AC56BC /* LaunchScreen.storyboard */; };
+		C27BAB311C846E9E00AC56BC /* ZSAddressBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27BAB301C846E9E00AC56BC /* ZSAddressBookTests.swift */; };
+		C27BAB3C1C846E9E00AC56BC /* ZSAddressBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27BAB3B1C846E9E00AC56BC /* ZSAddressBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27BAB2D1C846E9E00AC56BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27BAB101C846E9E00AC56BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27BAB171C846E9E00AC56BC;
+			remoteInfo = ZSAddressBook;
+		};
+		C27BAB381C846E9E00AC56BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27BAB101C846E9E00AC56BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27BAB171C846E9E00AC56BC;
+			remoteInfo = ZSAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27BAB181C846E9E00AC56BC /* ZSAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27BAB1B1C846E9E00AC56BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C27BAB1D1C846E9E00AC56BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C27BAB201C846E9E00AC56BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C27BAB221C846E9E00AC56BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C27BAB251C846E9E00AC56BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C27BAB271C846E9E00AC56BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27BAB2C1C846E9E00AC56BC /* ZSAddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSAddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27BAB301C846E9E00AC56BC /* ZSAddressBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSAddressBookTests.swift; sourceTree = "<group>"; };
+		C27BAB321C846E9E00AC56BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27BAB371C846E9E00AC56BC /* ZSAddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSAddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27BAB3B1C846E9E00AC56BC /* ZSAddressBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSAddressBookUITests.swift; sourceTree = "<group>"; };
+		C27BAB3D1C846E9E00AC56BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27BAB151C846E9E00AC56BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BAB291C846E9E00AC56BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BAB341C846E9E00AC56BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27BAB0F1C846E9E00AC56BC = {
+			isa = PBXGroup;
+			children = (
+				C27BAB1A1C846E9E00AC56BC /* ZSAddressBook */,
+				C27BAB2F1C846E9E00AC56BC /* ZSAddressBookTests */,
+				C27BAB3A1C846E9E00AC56BC /* ZSAddressBookUITests */,
+				C27BAB191C846E9E00AC56BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27BAB191C846E9E00AC56BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27BAB181C846E9E00AC56BC /* ZSAddressBook.app */,
+				C27BAB2C1C846E9E00AC56BC /* ZSAddressBookTests.xctest */,
+				C27BAB371C846E9E00AC56BC /* ZSAddressBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27BAB1A1C846E9E00AC56BC /* ZSAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				C27BAB1B1C846E9E00AC56BC /* AppDelegate.swift */,
+				C27BAB1D1C846E9E00AC56BC /* ViewController.swift */,
+				C27BAB1F1C846E9E00AC56BC /* Main.storyboard */,
+				C27BAB221C846E9E00AC56BC /* Assets.xcassets */,
+				C27BAB241C846E9E00AC56BC /* LaunchScreen.storyboard */,
+				C27BAB271C846E9E00AC56BC /* Info.plist */,
+			);
+			path = ZSAddressBook;
+			sourceTree = "<group>";
+		};
+		C27BAB2F1C846E9E00AC56BC /* ZSAddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				C27BAB301C846E9E00AC56BC /* ZSAddressBookTests.swift */,
+				C27BAB321C846E9E00AC56BC /* Info.plist */,
+			);
+			path = ZSAddressBookTests;
+			sourceTree = "<group>";
+		};
+		C27BAB3A1C846E9E00AC56BC /* ZSAddressBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C27BAB3B1C846E9E00AC56BC /* ZSAddressBookUITests.swift */,
+				C27BAB3D1C846E9E00AC56BC /* Info.plist */,
+			);
+			path = ZSAddressBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27BAB171C846E9E00AC56BC /* ZSAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27BAB401C846E9E00AC56BC /* Build configuration list for PBXNativeTarget "ZSAddressBook" */;
+			buildPhases = (
+				C27BAB141C846E9E00AC56BC /* Sources */,
+				C27BAB151C846E9E00AC56BC /* Frameworks */,
+				C27BAB161C846E9E00AC56BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSAddressBook;
+			productName = ZSAddressBook;
+			productReference = C27BAB181C846E9E00AC56BC /* ZSAddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27BAB2B1C846E9E00AC56BC /* ZSAddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27BAB431C846E9E00AC56BC /* Build configuration list for PBXNativeTarget "ZSAddressBookTests" */;
+			buildPhases = (
+				C27BAB281C846E9E00AC56BC /* Sources */,
+				C27BAB291C846E9E00AC56BC /* Frameworks */,
+				C27BAB2A1C846E9E00AC56BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27BAB2E1C846E9E00AC56BC /* PBXTargetDependency */,
+			);
+			name = ZSAddressBookTests;
+			productName = ZSAddressBookTests;
+			productReference = C27BAB2C1C846E9E00AC56BC /* ZSAddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C27BAB361C846E9E00AC56BC /* ZSAddressBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27BAB461C846E9E00AC56BC /* Build configuration list for PBXNativeTarget "ZSAddressBookUITests" */;
+			buildPhases = (
+				C27BAB331C846E9E00AC56BC /* Sources */,
+				C27BAB341C846E9E00AC56BC /* Frameworks */,
+				C27BAB351C846E9E00AC56BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27BAB391C846E9E00AC56BC /* PBXTargetDependency */,
+			);
+			name = ZSAddressBookUITests;
+			productName = ZSAddressBookUITests;
+			productReference = C27BAB371C846E9E00AC56BC /* ZSAddressBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27BAB101C846E9E00AC56BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = clack;
+				TargetAttributes = {
+					C27BAB171C846E9E00AC56BC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C27BAB2B1C846E9E00AC56BC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C27BAB171C846E9E00AC56BC;
+					};
+					C27BAB361C846E9E00AC56BC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C27BAB171C846E9E00AC56BC;
+					};
+				};
+			};
+			buildConfigurationList = C27BAB131C846E9E00AC56BC /* Build configuration list for PBXProject "ZSAddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27BAB0F1C846E9E00AC56BC;
+			productRefGroup = C27BAB191C846E9E00AC56BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27BAB171C846E9E00AC56BC /* ZSAddressBook */,
+				C27BAB2B1C846E9E00AC56BC /* ZSAddressBookTests */,
+				C27BAB361C846E9E00AC56BC /* ZSAddressBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27BAB161C846E9E00AC56BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27BAB261C846E9E00AC56BC /* LaunchScreen.storyboard in Resources */,
+				C27BAB231C846E9E00AC56BC /* Assets.xcassets in Resources */,
+				C27BAB211C846E9E00AC56BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BAB2A1C846E9E00AC56BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BAB351C846E9E00AC56BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27BAB141C846E9E00AC56BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27BAB1E1C846E9E00AC56BC /* ViewController.swift in Sources */,
+				C27BAB1C1C846E9E00AC56BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BAB281C846E9E00AC56BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27BAB311C846E9E00AC56BC /* ZSAddressBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BAB331C846E9E00AC56BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27BAB3C1C846E9E00AC56BC /* ZSAddressBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27BAB2E1C846E9E00AC56BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27BAB171C846E9E00AC56BC /* ZSAddressBook */;
+			targetProxy = C27BAB2D1C846E9E00AC56BC /* PBXContainerItemProxy */;
+		};
+		C27BAB391C846E9E00AC56BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27BAB171C846E9E00AC56BC /* ZSAddressBook */;
+			targetProxy = C27BAB381C846E9E00AC56BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C27BAB1F1C846E9E00AC56BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27BAB201C846E9E00AC56BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C27BAB241C846E9E00AC56BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27BAB251C846E9E00AC56BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27BAB3E1C846E9E00AC56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C27BAB3F1C846E9E00AC56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27BAB411C846E9E00AC56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clack.ZSAddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C27BAB421C846E9E00AC56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clack.ZSAddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C27BAB441C846E9E00AC56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clack.ZSAddressBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSAddressBook.app/ZSAddressBook";
+			};
+			name = Debug;
+		};
+		C27BAB451C846E9E00AC56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clack.ZSAddressBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSAddressBook.app/ZSAddressBook";
+			};
+			name = Release;
+		};
+		C27BAB471C846E9E00AC56BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSAddressBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clack.ZSAddressBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSAddressBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C27BAB481C846E9E00AC56BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSAddressBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clack.ZSAddressBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSAddressBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27BAB131C846E9E00AC56BC /* Build configuration list for PBXProject "ZSAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27BAB3E1C846E9E00AC56BC /* Debug */,
+				C27BAB3F1C846E9E00AC56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27BAB401C846E9E00AC56BC /* Build configuration list for PBXNativeTarget "ZSAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27BAB411C846E9E00AC56BC /* Debug */,
+				C27BAB421C846E9E00AC56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C27BAB431C846E9E00AC56BC /* Build configuration list for PBXNativeTarget "ZSAddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27BAB441C846E9E00AC56BC /* Debug */,
+				C27BAB451C846E9E00AC56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C27BAB461C846E9E00AC56BC /* Build configuration list for PBXNativeTarget "ZSAddressBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27BAB471C846E9E00AC56BC /* Debug */,
+				C27BAB481C846E9E00AC56BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27BAB101C846E9E00AC56BC /* Project object */;
+}
